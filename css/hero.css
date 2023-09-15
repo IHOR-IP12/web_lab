@@ -1,0 +1,403 @@
+.hero {
+    background-image: url(../images/image1.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background: url(../images/image1.svg) no-repeat right top 360px;
+}
+
+.hero_title {
+    color: var(--2, #212353);
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+    display: flex;
+    width: 645px;
+    height: 184px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+
+.hero_paragraph {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+    font-size: 18px;
+    width: 380px;
+    height: 120px;
+    flex-shrink: 0;
+
+}
+
+.header__buttons {
+
+    padding-top: 50px;
+}
+
+.light-fast {
+    background-image: url(../images/image2.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background: url(../images/image2.svg) no-repeat left 250px top -20px;
+}
+
+
+.hero__title2 {
+    display: flex;
+    width: 475px;
+    height: 100px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    padding-left: 790px;
+    padding-top: 84px;
+
+}
+
+.paragraph {
+    width: 474px;
+    height: 170px;
+    flex-shrink: 0;
+    color: var(--1, #4B5D68);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+    padding-left: 790px;
+}
+
+.light-fast__inner {
+    background-image: url(../images/Rectangle\ 34.svg);
+    border-radius: 50px;
+    width: 1117px;
+    height: 560px;
+    flex-shrink: 0;
+    padding-right: 200px;
+    background-repeat: no-repeat left right bottom;
+    background: url(../images/Rectangle\ 34.svg) no-repeat left 240px bottom;
+}
+
+.hero_title3 {
+    width: 584px;
+    color: var(--1, #4B5D68);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 160%;
+    padding-left: 507px;
+    padding-top: 50px;
+
+}
+
+.intro_nav ul {
+    display: flex;
+    padding-left: 500px;
+    padding-top: 149px;
+}
+
+.intro_nav-item {
+    margin-right: 382px;
+}
+
+
+.intro_nav-item:nth-child(1) a {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #212353;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.intro_nav-item2:nth-child(2) a {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #212353;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.intro_paragraph_nav ul {
+    display: flex;
+    padding-left: 500px;
+
+
+}
+
+.intro_paragraph_nav-item {
+    margin-right: 362px;
+
+}
+
+.intro_paragraph_nav-item2 {
+    width: 220px;
+    height: 160px;
+    flex-shrink: 0;
+    color: var(--1, #4B5D68);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.intro_paragraph_nav-item {
+    width: 220px;
+    height: 160px;
+    flex-shrink: 0;
+    color: var(--1, #4B5D68);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.intro_Learn-More_nav {
+    display: flex;
+}
+
+.intro_Learn-More_nav-item {
+    color: var(--2, #212353);
+    font-weight: 800;
+    padding-left: 460px;
+    padding-bottom: 25px;
+    display: flex;
+}
+
+.intro_Learn-More_nav-item2 {
+    color: var(--2, #212353);
+    font-weight: 800;
+    padding-left: 505px;
+    bottom: 25px;
+
+    display: flex;
+}
+
+.intro2_nav ul {
+    display: flex;
+    padding-left: 500px;
+    padding-top: 100px;
+}
+
+.intro2_nav-item {
+    margin-right: 382px;
+}
+
+
+.intro2_nav-item:nth-child(1) a {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #212353;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.intro2_nav-item:nth-child(2) a {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #212353;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.intro2_paragraph_nav ul {
+    display: flex;
+    padding-left: 500px;
+
+
+}
+
+.intro2_paragraph_nav-item {
+    margin-right: 362px;
+
+}
+
+.intro2_paragraph_nav-item1 {
+    width: 220px;
+    height: 160px;
+    flex-shrink: 0;
+    color: var(--1, #4B5D68);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.intro2_paragraph_nav-item {
+    width: 220px;
+    height: 160px;
+    flex-shrink: 0;
+    color: var(--1, #4B5D68);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.intro2_Learn-More_nav-item {
+    color: var(--2, #212353);
+    font-weight: 800;
+    padding-left: 463px;
+}
+
+.intro2_Learn-More_nav-item2 {
+    color: var(--2, #212353);
+    font-weight: 800;
+    padding-left: 505px;
+    padding-bottom: 100px;
+}
+
+.intro1 {
+    background-image: url(../images/image3\ 1.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background: url(../images/image3\ 1.svg) no-repeat bottom 50px left 230px;
+
+
+}
+
+.intro_container {
+    background-image: url(../images/Rectangle\ 39.svg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background: url(../images/Rectangle\ 39.svg) no-repeat top 85px left 320px;
+
+
+}
+
+.colo {
+    background-image: url(../images/Vector\ 56.svg);
+    background-repeat: no-repeat;
+    background-position: top 100px left 539px;
+}
+
+.right1 {
+    background-image: url(../images/Group\ 56.svg );
+    background-repeat: no-repeat;
+    background-position: top left 600px;
+
+
+}
+
+
+.intro1-2 {
+    background-image: url(../images/image4.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background: url(../images/image4.svg) no-repeat top 175px left 810px;
+
+
+}
+
+.intro_paragraph1-2 {
+    background-image: url(../images/Rectangle\ 40.svg);
+    background-repeat: no-repeat;
+    background-position: top 80px left 920px;
+
+}
+
+.right2 {
+    background-image: url(../images/Group\ 56.svg );
+    background-repeat: no-repeat;
+    background-position: bottom 26px left 1187px;
+
+
+}
+
+
+.intro2-1 {
+    background-image: url(../images/image5\ 1.svg );
+    background-repeat: no-repeat;
+    background-position: top 170px left 220px;
+
+}
+
+.intro2-1_paragraph {
+    background-image: url(../images/Rectangle\ 32.svg );
+    background-repeat: no-repeat;
+    background-position: top 50px left 320px;
+
+}
+
+.right3 {
+    background-image: url(../images/Group\ 56.svg);
+    background-repeat: no-repeat;
+    background-position: bottom 102px left 599px;
+}
+
+.intro2-2 {
+    background-image: url(../images/image6\ 1.svg );
+    background-repeat: no-repeat;
+    background-position: top 140px left 820px;
+
+}
+
+.intro2-2_paragraph {
+    background-image: url(../images/Rectangle\ 42.svg );
+    background-repeat: no-repeat;
+    background-position: top 50px left 920px;
+
+}
+
+.right4 {
+    background-image: url(../images/Group\ 56.svg );
+    background-repeat: no-repeat;
+    background-position: bottom 102px left 1187px;
+
+
+}
+
+.vector {
+    background-image: url(../images/Vector\ 57.svg );
+    background-repeat: no-repeat;
+    background-position: bottom 26px left 1100px;
+}
+
+.vector2 {
+    background-image: url(../images/Ellipse\ 62.svg );
+    background-repeat: no-repeat;
+    background-position: bottom 332px left 655px;
+}
+
+.vector3 {
+    background-image: url(../images/Ellipse\ 63.svg );
+    background-repeat: no-repeat;
+    background-position: bottom 82px left 1250px;
+}
+
+.vector4 {
+    background-image: url(../images/Vector\ 58.svg );
+    background-repeat: no-repeat;
+    background-position: bottom 150px left 1050px;
+}
+
+/* .rectangle1 {
+    background-image: url(../images/Rectangle\ 1.svg);
+    background-repeat: no-repeat;
+} */

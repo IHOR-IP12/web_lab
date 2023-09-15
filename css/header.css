@@ -1,0 +1,47 @@
+.header__nav {
+    display: flex;
+}
+
+.header__nav-item {
+    margin-right: 60px;
+}
+
+.header__nav-item:nth-child(1) a {
+    font-weight: 800;
+    color: var(--2, #212353);
+}
+
+.header__Request-Demo {
+    border-radius: 50px;
+    background: #FFF;
+    box-shadow: 0px 5px 5px 0px rgba(75, 93, 104, 0.10);
+    width: 210px;
+    height: 60px;
+    flex-shrink: 0;
+    color: #212353;
+    padding-right: 69px;
+    padding-left: 29px;
+    padding-top: 17px;
+    border: 0;
+    font-weight: 800;
+}
+
+.header__Request-Demo {
+    background-image: url(../images/Group\ 56.svg);
+    background-repeat: no-repeat;
+    background-position: top 31px right 30px;
+
+}
+
+.header_title2 {
+    width: 405px;
+    color: #212353;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+    flex-shrink: 0;
+    text-align: center;
+    padding-left: 596px;
+    padding-top: 250px;
+
+}

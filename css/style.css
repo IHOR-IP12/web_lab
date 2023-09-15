@@ -1,0 +1,30 @@
+@import "./normalize.min.css";
+
+@import "./globals.css";
+
+@import "./header.css";
+@import "./hero.css";
+@import "./footer.css";
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header__nav ul {
+    display: flex;
+    padding-left: 121px;
+}
+
+.hero__inner {
+    width: 645px;
+    padding-top: 147px;
+    padding-left: 240px;
+    padding-bottom: 200px;
+
+}
+
+.header__buttons {
+    padding-top: 50px;
+}
